@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle ufaabc",
+        "command": "ufaabc:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "ufaabc",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "ufaabc:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
